@@ -2219,3 +2219,24 @@ a:hover {
   font-weight: 600;
   color: rgb(40, 171, 227);
 }
+
+.flexcenter-row {
+  display: flex;
+  align-items: center;
+  gap: 5;
+  flex-direction: row;
+}
+
+.flexcenter-col {
+  display: flex;
+  align-items: center;
+  padding: 0px 3px;
+  justify-items: start;
+  flex-direction: column;
+  text-align: left;
+}
+
+.left-align {
+  text-align: left;
+  display: block;
+}
