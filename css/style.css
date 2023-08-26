@@ -44,6 +44,7 @@ figure {
 
 a {
   transition: all 0.3s ease-in 0s;
+  color: rgb(40, 171, 227);
 }
 
 iframe {
