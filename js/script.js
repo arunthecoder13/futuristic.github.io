@@ -170,14 +170,14 @@
   // -----------------------------
   //  On Scroll
   // -----------------------------
-  $(window).scroll(function () {
-    counter();
+  // $(window).scroll(function () {
+  //   counter();
 
-    var scroll = $(window).scrollTop();
-    if (scroll > 50) {
-      $(".navigation").addClass("sticky-header");
-    } else {
-      $(".navigation").removeClass("sticky-header");
-    }
-  });
+  //   var scroll = $(window).scrollTop();
+  //   if (scroll > 50) {
+  //     $(".navigation").addClass("sticky-header");
+  //   } else {
+  //     $(".navigation").addClass("sticky-header");
+  //   }
+  // });
 })(jQuery);
