@@ -1396,23 +1396,14 @@ a:hover {
   padding-top: 40px;
   background: #28abe3;
   position: relative;
-  padding-bottom: 0px;
-  margin: 30px 0px;
+  /* padding-bottom: 190px; */
+  margin: 0px 0px 0px 0px;
 }
-.testimonial:before {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  bottom: 0;
-  height: 145px;
-  background-color: rgb(255, 255, 255);
-}
+
 .testimonial .item i {
   font-size: 60px;
   color: #fff;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   display: inline-block;
 }
 .testimonial .item .client-details {
