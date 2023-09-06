@@ -1393,7 +1393,7 @@ a:hover {
   Testimonial section
 ==================================================================*/
 .testimonial {
-  padding-top: 40px;
+  padding: 40px 0px;
   background: #28abe3;
   position: relative;
   /* padding-bottom: 190px; */
